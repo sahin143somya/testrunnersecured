@@ -1,11 +1,4 @@
 
-  /* UPDATED CSS NOTE:
-  - This version uses a fully fixed layout for desktop.
-  - Header and Sidebar use 'position: fixed'.
-  - Body has top padding to account for the fixed header.
-  - Main content area has a right margin to avoid being overlapped by the fixed sidebar.
-  - Footer width uses calc() to form a seamless L-shape with the sidebar.
-*/
 
 /* General Body and Container Styles */
 body {
@@ -1111,7 +1104,7 @@ body.dark span#sidebarVisitedCount, body.dark span#reattemptVisited { background
 span#sidebarAnsweredReviewedCount { background-color: var(--reviewed-light); color: #333; border: 2px dashed #28a745; }
 span#reattemptIncorrect { background-color: #dc3545; }
 
-.palette-title { font-size: 1em; font-weight: 600; margin-bottom: 8px; }
+.palette-title { font-size: 1em; font-weight: 600; margin-bottom: 8px; border-bottom: 1px solid var(--border-color-light);}
  body.dark .palette-title{color:var(--text-color-dark);}
 .question-palette { background-color:var(--bg-transparent-test); padding: 10px; border-radius: 6px; box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.05); flex-grow: 1; min-height:250px;max-height: 350px; overflow-y: auto; }
 body.dark .question-palette { background-color:var(--bg-transparent-test);/* var(--bg-color-dark);*/ box-shadow: inset 0 0 4px rgba(255, 255, 255, 0.05); }
