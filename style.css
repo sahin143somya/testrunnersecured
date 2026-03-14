@@ -21,6 +21,8 @@ body.dark {
 
 :root {
     /* Light Theme Colors (Default) */
+    --buttontest-bg:#a9d0f5;
+   --buttontest-bdr:#92c4f2;
     --primary-color-light: #1FBAD6; /* Blue */
     --primary-color-active: #166A84; /*ACTIVE TAB COLOR */
     --secondary-color-light: #50E3C2; /* Green */
@@ -660,8 +662,8 @@ body.dark .question-display {
 }
 
 .option-btn {
-    background-color: var(--bg-color-light);
-    border: 1px solid var(--border-color-light);
+    /*background-color: var(--bg-color-light);
+    border: 1px solid var(--border-color-light);*/
     padding: 10px 12px;
     border-radius: 6px;
     text-align: left;
@@ -674,8 +676,8 @@ body.dark .question-display {
     color: var(--text-color-light);
 }
 body.dark .option-btn {
-    background-color: var(--bg-color-dark);
-    border-color: var(--border-color-dark);
+    /*background-color: var(--bg-color-dark);
+    border-color: var(--border-color-dark);*/
     color: var(--text-color-dark);
 }
 .option-btn:hover:not(:disabled) {
@@ -689,7 +691,7 @@ body.dark .option-btn:hover:not(:disabled) {
     color: white;
 }
 .option-btn.selected {
-    background-color: var(--primary-color-light);
+    background-color: var(--bg-color-light);
     color: white;
     border-color: var(--primary-color-light);
     font-weight: 600;
@@ -1392,6 +1394,7 @@ body.dark .control-btn.icon-btn { background-color: rgba(0, 0, 0, 0.2); }
 .control-btn.blue-btn { background-color: var(--primary-color-light);/*#007bff;*/ color: white; }
 .control-btn.purple-btn { background-color: #6f42c1; color: white; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); background-repeat: no-repeat; background-position: right 8px center; padding-right: 25px; height: 36px; }
 .control-btn.green-btn { background-color: #28a745; color: white; }
+.control-btn.buttontest-btn { background-color:var(--buttontest-bg);border-color:var(--buttontest-bdr); color:var(--text-color-dark); }
 .control-btn.gray-btn { background-color: #6c757d; color: white; }
 .control-btn.yellow-btn { background-color: #ffc107; color: #333; }
 .control-btn.red-btn, .submit-btn.red-btn { background-color: #dc3545; color: white; }
