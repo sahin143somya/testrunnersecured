@@ -681,9 +681,9 @@ body.dark .option-btn {
     color: var(--text-color-dark);
 }
 .option-btn:hover:not(:disabled) {
-    background-color: var(--primary-color-light);
+    background-color: var(--bg-color-light);
     color:var(--text-color-light);
-    border-color: var(--primary-color-light);
+    border-color: var(--border-color-light);
 }
 body.dark .option-btn:hover:not(:disabled) {
     background-color: var(--primary-color-dark);
@@ -1129,7 +1129,7 @@ body.dark .palette-item.correct-result { background-color: #1a4d2e; }
 body.dark .palette-item.incorrect-result { background-color: #5c1b1f; }
 .palette-item.locked { background-color: #6c757d; color: white; cursor: not-allowed; opacity: 0.6; text-decoration: line-through;}
 
-.sidebar .submit-btn { width: 100%; padding: 10px; font-size: 1em; }
+.sidebar .submit-btn { width: 100%; padding: 10px; font-size: 1em;border:none;border-radius:5px; }
 .instructions-and-qp-buttons { display: flex; flex-direction:row; gap: 10px; margin-top: auto; padding-top:; }
 .instructions-and-qp-buttons .control-btn { width: 100%; }
 .sidebar-toggle-feedback { display: flex; align-items: center; gap: 8px; background-color: var(--bg-color-light); padding: 8px; border-radius: 6px; }
