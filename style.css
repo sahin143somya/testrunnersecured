@@ -682,7 +682,7 @@ body.dark .option-btn {
 }
 .option-btn:hover:not(:disabled) {
     background-color: var(--primary-color-light);
-    color: white;
+    color:var(--text-color-light);
     border-color: var(--primary-color-light);
 }
 body.dark .option-btn:hover:not(:disabled) {
@@ -691,7 +691,7 @@ body.dark .option-btn:hover:not(:disabled) {
     color: white;
 }
 .option-btn.selected {
-    background-color: var(--bg-color-light);
+    background-color: var(--primary-color-light);
     color: white;
     border-color: var(--primary-color-light);
     font-weight: 600;
@@ -1391,10 +1391,10 @@ body.dark .optional-subject-change-container .choice-item:has(input:checked) {
 .control-btn.icon-btn .icon { width: 20px; height: 20px; color: white; }
 body.dark .control-btn.icon-btn { background-color: rgba(0, 0, 0, 0.2); }
 .control-btn:hover:not(:disabled) { transform: translateY(-1px); box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); }
-.control-btn.blue-btn { background-color: var(--primary-color-light);/*#007bff;*/ color: white; }
+.control-btn.blue-btn, .submit-btn.blue-btn { background-color: var(--primary-color-light);/*#007bff;*/ color: white; }
 .control-btn.purple-btn { background-color: #6f42c1; color: white; -webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); background-repeat: no-repeat; background-position: right 8px center; padding-right: 25px; height: 36px; }
 .control-btn.green-btn { background-color: #28a745; color: white; }
-.control-btn.buttontest-btn { background-color:var(--buttontest-bg);border-color:var(--buttontest-bdr); color:var(--text-color-dark); }
+.control-btn.buttontest-btn { background-color:var(--buttontest-bg);border-color:var(--buttontest-bdr); color:var(--text-color-light); }
 .control-btn.gray-btn { background-color: #6c757d; color: white; }
 .control-btn.yellow-btn { background-color: #ffc107; color: #333; }
 .control-btn.red-btn, .submit-btn.red-btn { background-color: #dc3545; color: white; }
